@@ -21,8 +21,8 @@ function setup() {
 paper=new Ball(200,450,50)
 ground = Bodies.rectangle(width/2,690,width,20,{isStatic:true})
 World.add(world,ground)
-leftbody= new Dustbin(1100,600,100,0); rightbody=new Dustbin(1300,600,100,0)
- ;basebody= new Dustbin(1200,650,200,PI/2)
+leftbody= new Dustbin(1100,600,20,100,0); rightbody=new Dustbin(1300,600,20,100,0)
+ ;basebody= new Dustbin(1200,650,20,200,PI/2)
 
 
 	Engine.run(engine);
